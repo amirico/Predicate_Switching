@@ -1,0 +1,8 @@
+26
+correct:
+if (omove && hasWon('O')) return "FIRST";
+fault:
+if (omove && hasWon('O')) return "SECOND";
+
+105, 3
+(test.whoWins(board) == "FIRST")
