@@ -1,0 +1,38 @@
+false
+81, 80, 79, false
+78, 77, 76, false
+75, 74, 73, false
+72, false
+71, 70, false
+69, false
+68, 67, 66, 65, false
+64, 63, 62, false
+61, false
+60, false
+59, 58, 57, false
+56, false
+55, 54, 53, 52, false
+51, 50, 49, false
+48, false
+47, false
+46, 45, 44, false
+43, false
+42, 41, 40, false
+39, 38, 37, 36, false
+35, 34, 33, false
+32, false
+31, false
+30, false
+29, 28, 27, false
+26, 25, 24, 23, false
+22, 21, 20, false
+19, false
+18, false
+17, false
+16, 15, 14, false
+13, 12, 11, false
+10, false
+9, 8, 7, false
+6, 5, 4, false
+3, false
+2, 1, 

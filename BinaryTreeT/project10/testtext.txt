@@ -1,0 +1,2 @@
+9, 6, 9, 26, /C:/Users/Klant/workspace2/project22/src/Maze.java
+109, 6, 109, 9, /C:/Users/Klant/workspace2/project22/src/Maze.java
