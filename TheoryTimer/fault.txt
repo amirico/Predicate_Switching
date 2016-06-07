@@ -1,0 +1,3 @@
+97
+29, 2
+int zeros = 0; for(int el : board[0]) {if (el == 0) zeros++; }System.out.println(zeros != 9);

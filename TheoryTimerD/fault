@@ -1,0 +1,10 @@
+18,19 this.elapsed += currentTime;
+			this.startTime = currentTime - this.startTime;
+			
+			instead of 
+			
+			this.elapsed += currentTime - this.startTime;
+			this.startTime = currentTime;
+			 
+127, 2
+(t.timeRemaining() == 400)

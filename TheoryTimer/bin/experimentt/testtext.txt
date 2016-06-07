@@ -1,0 +1,17 @@
+16, 6, 16, 34, /C:/Users/Klant/workspace2/project16/src/TheoryTimer.java
+22, 6, 22, 18, /C:/Users/Klant/workspace2/project16/src/TheoryTimer.java
+34, 6, 34, 18, /C:/Users/Klant/workspace2/project16/src/TheoryTimer.java
+16, 6, 16, 34, /C:/Users/Klant/workspace2/project16/src/TheoryTimer.java
+22, 6, 22, 18, /C:/Users/Klant/workspace2/project16/src/TheoryTimer.java
+16, 6, 16, 34, /C:/Users/Klant/workspace2/project16/src/TheoryTimer.java
+22, 6, 22, 18, /C:/Users/Klant/workspace2/project16/src/TheoryTimer.java
+16, 6, 16, 34, /C:/Users/Klant/workspace2/project16/src/TheoryTimer.java
+22, 6, 22, 18, /C:/Users/Klant/workspace2/project16/src/TheoryTimer.java
+16, 6, 16, 34, /C:/Users/Klant/workspace2/project16/src/TheoryTimer.java
+22, 6, 22, 18, /C:/Users/Klant/workspace2/project16/src/TheoryTimer.java
+16, 6, 16, 34, /C:/Users/Klant/workspace2/project16/src/TheoryTimer.java
+22, 6, 22, 18, /C:/Users/Klant/workspace2/project16/src/TheoryTimer.java
+71, 6, 71, 21, /C:/Users/Klant/workspace2/project16/src/TheoryTimer.java
+79, 6, 79, 19, /C:/Users/Klant/workspace2/project16/src/TheoryTimer.java
+87, 6, 87, 18, /C:/Users/Klant/workspace2/project16/src/TheoryTimer.java
+95, 6, 95, 16, /C:/Users/Klant/workspace2/project16/src/TheoryTimer.java

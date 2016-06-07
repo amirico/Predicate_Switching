@@ -1,0 +1,5 @@
+60
+correct: return !(elapsed < duration);
+false: return !(elapsed > duration);
+127, 2
+(t.timeRemaining() == 400)
