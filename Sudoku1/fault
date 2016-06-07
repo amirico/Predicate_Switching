@@ -1,0 +1,4 @@
+140
+197, 5
+int ones = 0; for(int el : sudoku.sudoku[0]) {if (el == 1) ones++;}
+ones == 1
