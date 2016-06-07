@@ -1,0 +1,5 @@
+137
+correct: prev.next = it.next;
+false: prev.next = it;
+193, 2
+(list.contains(4) == true)

@@ -1,0 +1,8 @@
+30, 6, 30, 18, /C:/Users/Klant/workspace2/project9/src/MyLL.java
+30, 6, 30, 18, /C:/Users/Klant/workspace2/project9/src/MyLL.java
+30, 6, 30, 18, /C:/Users/Klant/workspace2/project9/src/MyLL.java
+30, 6, 30, 18, /C:/Users/Klant/workspace2/project9/src/MyLL.java
+127, 7, 127, 37, /C:/Users/Klant/workspace2/project9/src/MyLL.java
+130, 13, 130, 23, /C:/Users/Klant/workspace2/project9/src/MyLL.java
+136, 8, 136, 22, /C:/Users/Klant/workspace2/project9/src/MyLL.java
+136, 8, 136, 22, /C:/Users/Klant/workspace2/project9/src/MyLL.java
