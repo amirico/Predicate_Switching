@@ -1,0 +1,3 @@
+75
+105, 3
+(test.whoWins(board) == "FIRST")

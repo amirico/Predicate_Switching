@@ -1,0 +1,9 @@
+68, 8, 68, 50, /C:/Users/Klant/workspace2/project66/src/ThreeCardPoker.java
+68, 8, 68, 50, /C:/Users/Klant/workspace2/project66/src/ThreeCardPoker.java
+68, 8, 68, 50, /C:/Users/Klant/workspace2/project66/src/ThreeCardPoker.java
+50, 6, 50, 45, /C:/Users/Klant/workspace2/project66/src/ThreeCardPoker.java
+52, 6, 52, 22, /C:/Users/Klant/workspace2/project66/src/ThreeCardPoker.java
+54, 6, 54, 25, /C:/Users/Klant/workspace2/project66/src/ThreeCardPoker.java
+56, 6, 56, 22, /C:/Users/Klant/workspace2/project66/src/ThreeCardPoker.java
+58, 6, 58, 21, /C:/Users/Klant/workspace2/project66/src/ThreeCardPoker.java
+24, 6, 24, 16, /C:/Users/Klant/workspace2/project66/src/ThreeCardPoker.java

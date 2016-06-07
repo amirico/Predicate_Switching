@@ -1,0 +1,6 @@
+55 
+correct: return STRAIGHT;
+false: return STRAIGHT_FLUSH;
+
+22, 2
+(score == 6)
