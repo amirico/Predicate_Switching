@@ -1,0 +1,3 @@
+34 // fault row instead of col
+105, 2
+numSolns==2
