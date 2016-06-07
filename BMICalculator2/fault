@@ -1,0 +1,5 @@
+36
+(checkLength > 2 && checkLength < 6)
+(checkLength < 2 && checkLength > 6)
+94, 2
+(bmi != 0)
