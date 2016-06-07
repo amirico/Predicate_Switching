@@ -1,0 +1,560 @@
+98, 97, true
+true
+96, true
+95, true
+94, true
+93, true
+92, true
+91, true
+90, true
+89, true
+88, true
+87, true
+86, true
+85, true
+84, true
+83, true
+82, true
+81, true
+80, true
+79, true
+78, 77, 76, 75, 74, true
+73, 72, 71, 70, 69, true
+68, true
+67, true
+66, true
+65, 64, true
+63, true
+62, true
+61, true
+60, 59, true
+58, true
+57, 56, 55, 54, 53, 52, 51, 50, true
+49, 48, 47, 46, 45, true
+44, 43, 42, true
+41, 40, 39, true
+38, true
+37, true
+36, true
+35, true
+34, true
+33, true
+32, true
+31, 30, 29, true
+28, true
+27, true
+26, true
+25, true
+24, 23, true
+22, true
+21, true
+20, true
+19, true
+18, true
+17, 16, true
+15, true
+14, true
+13, true
+12, 11, true
+10, 9, 8, true
+7, 6, 5, true
+4, 3, true
+2, true
+1, true
+false
+
+
+
+98, false
+97, false
+96, false
+95, false
+94, false
+93, false
+92, false
+91, false
+90, false
+89, false
+88, false
+87, false
+86, false
+85, false
+84, false
+83, false
+82, false
+81, false
+80, false
+79, false
+78, 77, 76, 75, 74, false
+73, 72, 71, 70, 69, false
+68, false
+67, false
+66, false
+65, 64, false
+63, false
+62, false
+61, false
+60, 59, false
+58, false
+57, 56, 55, 54, 53, 52, 51, 50, false
+49, 48, 47, 46, 45, false
+44, 43, 42, false
+41, 40, 39, false
+38, false
+37, false
+36, false
+35, false
+34, false
+33, false
+32, false
+31, 30, 29, false
+28, false
+27, false
+26, false
+25, false
+24, 23, false
+22, false
+21, false
+20, false
+19, false
+18, false
+17, 16, false
+15, false
+14, false
+13, false
+12, 11, false
+10, 9, 8, false
+7, 6, 5, false
+4, 3, false
+2, false
+1, false
+
+
+
+
+98, false
+97, false
+96, false
+95, false
+94, false
+93, false
+92, false
+91, false
+90, false
+89, false
+88, false
+87, false
+86, false
+85, false
+84, false
+83, false
+82, false
+81, false
+80, false
+79, false
+78, 77, 76, 75, 74, false
+73, 72, 71, 70, 69, false
+68, false
+67, false
+66, false
+65, 64, false
+63, false
+62, false
+61, false
+60, 59, false
+58, false
+57, 56, 55, 54, 53, 52, 51, 50, false
+49, 48, 47, 46, 45, false
+44, 43, 42, false
+41, 40, 39, false
+38, false
+37, false
+36, false
+35, false
+34, false
+33, false
+32, false
+31, 30, 29, false
+28, false
+27, false
+26, false
+25, false
+24, 23, false
+22, false
+21, false
+20, false
+19, false
+18, false
+17, 16, false
+15, false
+14, false
+13, false
+12, 11, false
+10, 9, 8, false
+7, 6, 5, false
+4, 3, false
+2, false
+1, 
+
+
+330, false
+329, false
+328, false
+327, false
+326, false
+325, false
+324, false
+323, false
+322, false
+321, false
+320, false
+319, false
+318, false
+317, false
+316, false
+315, false
+314, false
+313, false
+312, false
+311, false
+310, false
+309, false
+308, false
+307, false
+306, false
+305, false
+304, false
+303, false
+302, false
+301, false
+300, false
+299, false
+298, false
+297, false
+296, false
+295, false
+294, false
+293, false
+292, false
+291, false
+290, false
+289, false
+288, false
+287, false
+286, false
+285, false
+284, false
+283, false
+282, false
+281, false
+280, false
+279, false
+278, false
+277, false
+276, false
+275, false
+274, false
+273, false
+272, false
+271, false
+270, false
+269, false
+268, false
+267, false
+266, false
+265, false
+264, false
+263, false
+262, false
+261, false
+260, false
+259, false
+258, false
+257, false
+256, false
+255, false
+254, false
+253, false
+252, false
+251, false
+250, false
+249, false
+248, false
+247, false
+246, false
+245, false
+244, false
+243, false
+242, false
+241, false
+240, false
+239, false
+238, false
+237, false
+236, false
+235, false
+234, false
+233, false
+232, false
+231, false
+230, false
+229, false
+228, false
+227, false
+226, false
+225, false
+224, false
+223, false
+222, false
+221, false
+220, false
+219, false
+218, false
+217, false
+216, false
+215, false
+214, false
+213, false
+212, false
+211, false
+210, false
+209, false
+208, false
+207, false
+206, false
+205, false
+204, false
+203, false
+202, false
+201, false
+200, false
+199, false
+198, false
+197, false
+196, false
+195, false
+194, false
+193, false
+192, false
+191, false
+190, false
+189, false
+188, false
+187, false
+186, false
+185, false
+184, false
+183, false
+182, false
+181, false
+180, false
+179, false
+178, false
+177, false
+176, false
+175, false
+174, false
+173, false
+172, false
+171, false
+170, false
+169, false
+168, false
+167, false
+166, false
+165, false
+164, false
+163, false
+162, false
+161, false
+160, false
+159, false
+158, false
+157, false
+156, false
+155, false
+154, false
+153, false
+152, false
+151, false
+150, false
+149, false
+148, false
+147, false
+146, false
+145, false
+144, false
+143, false
+142, false
+141, false
+140, false
+139, false
+138, false
+137, false
+136, false
+135, false
+134, false
+133, false
+132, false
+131, false
+130, false
+129, 128, true
+127, true
+126, 125, 124, false
+123, 122, 121, false
+120, false
+119, false
+118, 117, 116, false
+115, 114, 113, 112, false
+111, 110, 109, 108, 107, 106, 105, 104, 103, 102, 101, false
+100, false
+99, false
+98, false
+97, 96, false
+95, false
+94, false
+93, false
+92, 91, false
+90, false
+89, 88, 87, 86, false
+85, 84, 83, 82, false
+81, 80, 79, false
+78, false
+77, false
+76, 75, 74, false
+73, 72, 71, false
+70, 69, false
+68, false
+67, false
+66, 65, 64, 63, false
+62, false
+61, false
+60, 59, 58, false
+57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, false
+38, false
+37, false
+36, false
+35, false
+34, false
+33, false
+32, false
+31, 30, 29, false
+28, false
+27, false
+26, false
+25, false
+24, 23, false
+22, false
+21, false
+20, false
+19, false
+18, false
+17, 16, false
+15, false
+14, false
+13, false
+12, 11, false
+10, 9, 8, false
+7, 6, 5, false
+4, 3, false
+2, false
+1, 
+
+
+165, false
+164, false
+163, false
+162, false
+161, false
+160, false
+159, false
+158, false
+157, false
+156, false
+155, false
+154, false
+153, false
+152, false
+151, false
+150, false
+149, false
+148, false
+147, false
+146, false
+145, false
+144, false
+143, false
+142, false
+141, false
+140, false
+139, false
+138, false
+137, false
+136, false
+135, false
+134, false
+133, false
+132, false
+131, false
+130, false
+129, 128, true
+127, true
+126, 125, 124, false
+123, 122, 121, false
+120, false
+119, false
+118, 117, 116, false
+115, 114, 113, 112, false
+111, 110, 109, 108, 107, 106, 105, 104, 103, 102, 101, false
+100, false
+99, false
+98, false
+97, 96, false
+95, false
+94, false
+93, false
+92, 91, false
+90, false
+89, 88, 87, 86, false
+85, 84, 83, 82, false
+81, 80, 79, false
+78, false
+77, false
+76, 75, 74, false
+73, 72, 71, false
+70, 69, false
+68, false
+67, false
+66, 65, 64, 63, false
+62, false
+61, false
+60, 59, 58, false
+57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, false
+38, false
+37, false
+36, false
+35, false
+34, false
+33, false
+32, false
+31, 30, 29, false
+28, false
+27, false
+26, false
+25, false
+24, 23, false
+22, false
+21, false
+20, false
+19, false
+18, false
+17, 16, false
+15, false
+14, false
+13, false
+12, 11, false
+10, 9, 8, false
+7, 6, 5, false
+4, 3, false
+2, false
+1, 

@@ -1,0 +1,3 @@
+519
+585, 8
+bst.subtree(bst1) == true
