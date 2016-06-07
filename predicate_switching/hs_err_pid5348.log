@@ -1,0 +1,183 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 32744 bytes for ChunkPool::allocate
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (allocation.cpp:273), pid=5348, tid=4228
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0_60-b27) (build 1.8.0_60-b27)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.60-b23 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000054d4d800):  JavaThread "C2 CompilerThread1" daemon [_thread_in_native, id=4228, stack(0x00000000563f0000,0x00000000564f0000)]
+
+Stack: [0x00000000563f0000,0x00000000564f0000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+Current CompileTask:
+C2:  23851  101       4       java.lang.String::indexOf (70 bytes)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x00000000568a9000 JavaThread "Service Thread" daemon [_thread_blocked, id=904, stack(0x0000000056620000,0x0000000056720000)]
+  0x0000000056824800 JavaThread "C1 CompilerThread2" daemon [_thread_blocked, id=1888, stack(0x0000000056c90000,0x0000000056d90000)]
+=>0x0000000054d4d800 JavaThread "C2 CompilerThread1" daemon [_thread_in_native, id=4228, stack(0x00000000563f0000,0x00000000564f0000)]
+  0x0000000054d46000 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=3096, stack(0x0000000056720000,0x0000000056820000)]
+  0x0000000054d42800 JavaThread "Attach Listener" daemon [_thread_blocked, id=7052, stack(0x00000000564f0000,0x00000000565f0000)]
+  0x0000000054d40800 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=7048, stack(0x0000000056260000,0x0000000056360000)]
+  0x0000000054ce6800 JavaThread "Finalizer" daemon [_thread_blocked, id=7040, stack(0x0000000055d40000,0x0000000055e40000)]
+  0x0000000054cdf800 JavaThread "Reference Handler" daemon [_thread_blocked, id=6012, stack(0x0000000055ff0000,0x00000000560f0000)]
+  0x00000000021ad800 JavaThread "main" [_thread_in_native, id=8828, stack(0x00000000024d0000,0x00000000025d0000)]
+
+Other Threads:
+  0x0000000054cd9800 VMThread [stack: 0x0000000055ed0000,0x0000000055fd0000] [id=10080]
+  0x00000000568bf000 WatcherThread [stack: 0x0000000056f00000,0x0000000057000000] [id=7064]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap:
+ PSYoungGen      total 18432K, used 3493K [0x00000000ebb80000, 0x00000000ed000000, 0x0000000100000000)
+  eden space 15872K, 22% used [0x00000000ebb80000,0x00000000ebee9420,0x00000000ecb00000)
+  from space 2560K, 0% used [0x00000000ecd80000,0x00000000ecd80000,0x00000000ed000000)
+  to   space 2560K, 0% used [0x00000000ecb00000,0x00000000ecb00000,0x00000000ecd80000)
+ ParOldGen       total 42496K, used 0K [0x00000000c3200000, 0x00000000c5b80000, 0x00000000ebb80000)
+  object space 42496K, 0% used [0x00000000c3200000,0x00000000c3200000,0x00000000c5b80000)
+ Metaspace       used 2664K, capacity 4498K, committed 4864K, reserved 1056768K
+  class space    used 287K, capacity 386K, committed 512K, reserved 1048576K
+
+Card table byte_map: [0x0000000011c60000,0x0000000011e50000] byte_map_base: 0x0000000011647000
+
+Marking Bits: (ParMarkBitMap*) 0x00000000711fa5b0
+ Begin Bits: [0x00000000122f0000, 0x0000000013228000)
+ End Bits:   [0x0000000013228000, 0x0000000014160000)
+
+Polling page: 0x0000000000240000
+
+CodeCache: size=245760Kb used=1250Kb max_used=1257Kb free=244509Kb
+ bounds [0x00000000028a0000, 0x0000000002b10000, 0x00000000118a0000]
+ total_blobs=333 nmethods=100 adapters=148
+ compilation: enabled
+
+Compilation events (10 events):
+Event: 23.749 Thread 0x0000000056824800 nmethod 96 0x00000000029d6290 code [0x00000000029d6400, 0x00000000029d65e8]
+Event: 23.758 Thread 0x0000000054d4d800   97       4       java.nio.CharBuffer::arrayOffset (35 bytes)
+Event: 23.759 Thread 0x0000000054d4d800 nmethod 97 0x00000000029d6010 code [0x00000000029d6140, 0x00000000029d61d8]
+Event: 23.786 Thread 0x0000000056824800   98       3       java.lang.String::valueOf (14 bytes)
+Event: 23.787 Thread 0x0000000056824800 nmethod 98 0x00000000029d5b90 code [0x00000000029d5d00, 0x00000000029d5f48]
+Event: 23.795 Thread 0x0000000056824800   99       3       java.lang.String::toString (2 bytes)
+Event: 23.795 Thread 0x0000000056824800 nmethod 99 0x00000000029daf50 code [0x00000000029db0a0, 0x00000000029db1f0]
+Event: 23.795 Thread 0x0000000056824800  100       3       java.lang.StringBuilder::<init> (18 bytes)
+Event: 23.796 Thread 0x0000000056824800 nmethod 100 0x00000000029da710 code [0x00000000029da8a0, 0x00000000029dad48]
+Event: 23.841 Thread 0x0000000054d4d800  101       4       java.lang.String::indexOf (70 bytes)
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (10 events):
+Event: 23.843 Thread 0x00000000021ad800 Exception <a 'java/io/IOException'> (0x00000000ebea3bf8) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u60\4407\hotspot\src\share\vm\prims\jni.cpp, line 709]
+Event: 23.843 Thread 0x00000000021ad800 Exception <a 'java/io/IOException'> (0x00000000ebea3e88) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u60\4407\hotspot\src\share\vm\prims\jni.cpp, line 709]
+Event: 23.843 Thread 0x00000000021ad800 Exception <a 'java/io/IOException'> (0x00000000ebea40e8) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u60\4407\hotspot\src\share\vm\prims\jni.cpp, line 709]
+Event: 23.843 Thread 0x00000000021ad800 Exception <a 'java/io/IOException'> (0x00000000ebea43a8) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u60\4407\hotspot\src\share\vm\prims\jni.cpp, line 709]
+Event: 23.843 Thread 0x00000000021ad800 Exception <a 'java/io/IOException'> (0x00000000ebea4638) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u60\4407\hotspot\src\share\vm\prims\jni.cpp, line 709]
+Event: 23.843 Thread 0x00000000021ad800 Exception <a 'java/io/IOException'> (0x00000000ebea4898) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u60\4407\hotspot\src\share\vm\prims\jni.cpp, line 709]
+Event: 23.843 Thread 0x00000000021ad800 Exception <a 'java/io/IOException'> (0x00000000ebea4f78) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u60\4407\hotspot\src\share\vm\prims\jni.cpp, line 709]
+Event: 23.843 Thread 0x00000000021ad800 Exception <a 'java/io/IOException'> (0x00000000ebea5208) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u60\4407\hotspot\src\share\vm\prims\jni.cpp, line 709]
+Event: 23.843 Thread 0x00000000021ad800 Exception <a 'java/io/IOException'> (0x00000000ebea5468) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u60\4407\hotspot\src\share\vm\prims\jni.cpp, line 709]
+Event: 23.843 Thread 0x00000000021ad800 Exception <a 'java/io/IOException'> (0x00000000ebea5728) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u60\4407\hotspot\src\share\vm\prims\jni.cpp, line 709]
+
+Events (10 events):
+Event: 0.122 loading class java/lang/Math$RandomNumberGeneratorHolder
+Event: 0.122 loading class java/lang/Math$RandomNumberGeneratorHolder done
+Event: 0.122 loading class java/util/Random
+Event: 0.122 loading class java/util/Random done
+Event: 0.122 loading class java/util/concurrent/atomic/AtomicLong
+Event: 0.122 loading class java/util/concurrent/atomic/AtomicLong done
+Event: 4.159 Executing VM operation: EnableBiasedLocking
+Event: 4.159 Executing VM operation: EnableBiasedLocking done
+Event: 23.699 loading class java/io/InterruptedIOException
+Event: 23.699 loading class java/io/InterruptedIOException done
+
+
+Dynamic libraries:
+0x000000013f740000 - 0x000000013f777000 	C:\Program Files\Java\jdk1.8.0_60\bin\java.exe
+0x0000000077710000 - 0x00000000778ba000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00000000775f0000 - 0x000000007770f000 	C:\Windows\system32\kernel32.dll
+0x000007fefd680000 - 0x000007fefd6eb000 	C:\Windows\system32\KERNELBASE.dll
+0x000007fefe3c0000 - 0x000007fefe49b000 	C:\Windows\system32\ADVAPI32.dll
+0x000007fefe050000 - 0x000007fefe0ef000 	C:\Windows\system32\msvcrt.dll
+0x000007feff970000 - 0x000007feff98f000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007fefe530000 - 0x000007fefe65d000 	C:\Windows\system32\RPCRT4.dll
+0x00000000774f0000 - 0x00000000775ea000 	C:\Windows\system32\USER32.dll
+0x000007feff9b0000 - 0x000007feffa17000 	C:\Windows\system32\GDI32.dll
+0x000007fefe330000 - 0x000007fefe33e000 	C:\Windows\system32\LPK.dll
+0x000007fefe7e0000 - 0x000007fefe8aa000 	C:\Windows\system32\USP10.dll
+0x000007fefbdd0000 - 0x000007fefbfc4000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_fa3b1e3d17594757\COMCTL32.dll
+0x000007fefe340000 - 0x000007fefe3b1000 	C:\Windows\system32\SHLWAPI.dll
+0x000007fefd850000 - 0x000007fefd87e000 	C:\Windows\system32\IMM32.DLL
+0x000007fefdf40000 - 0x000007fefe049000 	C:\Windows\system32\MSCTF.dll
+0x0000000072510000 - 0x00000000725e2000 	C:\Program Files\Java\jdk1.8.0_60\jre\bin\msvcr100.dll
+0x00000000709f0000 - 0x0000000071279000 	C:\Program Files\Java\jdk1.8.0_60\jre\bin\server\jvm.dll
+0x000007fef6a70000 - 0x000007fef6a79000 	C:\Windows\system32\WSOCK32.dll
+0x000007fefe2e0000 - 0x000007fefe32d000 	C:\Windows\system32\WS2_32.dll
+0x000007fefe4a0000 - 0x000007fefe4a8000 	C:\Windows\system32\NSI.dll
+0x000007fefa180000 - 0x000007fefa1bb000 	C:\Windows\system32\WINMM.dll
+0x000007fefc580000 - 0x000007fefc58c000 	C:\Windows\system32\VERSION.dll
+0x00000000778e0000 - 0x00000000778e7000 	C:\Windows\system32\PSAPI.DLL
+0x0000000074a60000 - 0x0000000074a6f000 	C:\Program Files\Java\jdk1.8.0_60\jre\bin\verify.dll
+0x0000000074a30000 - 0x0000000074a59000 	C:\Program Files\Java\jdk1.8.0_60\jre\bin\java.dll
+0x0000000073e60000 - 0x0000000073e76000 	C:\Program Files\Java\jdk1.8.0_60\jre\bin\zip.dll
+0x000007fefebe0000 - 0x000007feff96a000 	C:\Windows\system32\SHELL32.dll
+0x000007fefdb50000 - 0x000007fefdd53000 	C:\Windows\system32\ole32.dll
+0x000007fefd4a0000 - 0x000007fefd4af000 	C:\Windows\system32\profapi.dll
+
+VM Arguments:
+java_command: experimenT.TestMineSweeper 1324
+java_class_path (initial): C:\Users\Klant\workspace2\project18\bin\
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\DMIX;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Takipi\lib;C:\Takipi\lib32;C:\Users\Klant\boundt;C:\Users\Klant\Downloads\tptpdc.all_platforms-TPTP-4.1.0\tptp\tptpdc\win_ia32\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Users\Klant\Downloads\major-1.1.6_jre7\major\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\
+USERNAME=Klant
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 37 Stepping 5, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 (6.1.7601.19135)
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 37 stepping 5, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, aes, clmul, ht, tsc, tscinvbit
+
+Memory: 4k page, physical 3987284k(1650336k free), swap 15947300k(4560k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.60-b23) for windows-amd64 JRE (1.8.0_60-b27), built on Aug  4 2015 11:06:27 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Tue Mar 01 00:51:49 2016
+elapsed time: 23 seconds (0d 0h 0m 23s)
+
