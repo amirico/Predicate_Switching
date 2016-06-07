@@ -1,0 +1,4 @@
+53, 6, 53, 72, /C:/Users/Klant/workspace11/project22/src/Maze.java
+57, 7, 57, 27, /C:/Users/Klant/workspace11/project22/src/Maze.java
+9, 6, 9, 26, /C:/Users/Klant/workspace11/project22/src/Maze.java
+109, 6, 109, 9, /C:/Users/Klant/workspace11/project22/src/Maze.java

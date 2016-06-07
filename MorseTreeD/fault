@@ -1,0 +1,5 @@
+165
+cursor = cursor.getRightChild();
+cursor = cursor.getLeftChild();
+258, 8
+true

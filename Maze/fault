@@ -1,0 +1,5 @@
+57 			
+correct: if (grid [row][col] == 1)
+fault: if (grid [row][col] == 0)
+108, 2
+ans

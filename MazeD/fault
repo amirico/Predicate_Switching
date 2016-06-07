@@ -1,0 +1,6 @@
+11
+correct: {grid[row][col] = 3; // cell has been tried
+fault: {grid[col][row] = 3; // cell has been tried
+
+108, 2
+ans

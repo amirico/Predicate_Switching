@@ -1,0 +1,5 @@
+40
+correct: if (!(valid())){return null;}
+fault: if ((valid())){return null;}
+125, 2
+(iter.getData() == 3)
